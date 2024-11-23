@@ -9,7 +9,7 @@ main (void)
  float Result;
  printf("Number: ");
  scanf("%f", &Numeral);
- printf("Operation (+,-,*,/,pow,sqrt,sin,cos,tan): ");
+ printf("Choose operation (+,-,*,/,pow,sqrt,sin,cos,tan): ");
  scanf("%s", Operation);
  Result=Calculate(Numeral, Operation);
  printf("%6.2f\n", Result);
